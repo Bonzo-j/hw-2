@@ -21,14 +21,13 @@ body {
 
 .main-logo {
   font-family: Raleway;
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-color: #2196F3;
-
+  color: #2196f3;
 }
 
 .studio-white {
@@ -57,7 +56,6 @@ color: #2196F3;
 .header-contacts:focus {
   color: var(--accent-color);
 }
-
 
 .header-contacts {
   font-weight: 500;
@@ -187,17 +185,15 @@ color: #2196F3;
 
 .main-footer-link {
   font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #2196F3;
-
-
+  color: #2196f3;
 }
 
 .footer-mail,
