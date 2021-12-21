@@ -7,6 +7,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #e5e5e5;
+  letter-spacing: 0.03em;
+  font-weight: 700;
 }
 
 .list {
@@ -21,11 +23,9 @@ body {
 
 .main-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 
   color: #2196f3;
 }
@@ -81,7 +81,6 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,7 +92,7 @@ body {
 }
 
 .hero-btn {
-  font-style: normal;
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -115,35 +114,24 @@ body {
 }
 
 .after-after-logo {
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: #212121;
 }
 
 .under-after-after-logo {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
 
   color: #757575;
 }
 
-.after-logo {
-  font-style: normal;
-  font-weight: 700;
+.title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
@@ -152,37 +140,22 @@ body {
   background: #f5f4fa;
 }
 
-.team-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
 .team-namez {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
 
 .team-after-namez {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #757575;
 }
@@ -194,44 +167,34 @@ body {
 
 .main-footer-link {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
 
   color: #2196f3;
 }
 
 .footer-mail,
 .footer-tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: #ffffff;
 }
 
 .footer-contacts {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
