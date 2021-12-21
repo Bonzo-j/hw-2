@@ -47,6 +47,15 @@ body {
   color: #212121;
 }
 
+.present {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--accent-color);
