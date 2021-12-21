@@ -81,15 +81,28 @@ body {
   display: none;
 }
 
-.filter-btn {
+.btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
+  
 
   color: #212121;
+}
+
+.present-btn { 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  background-color:  #2196f3;
+  color: #ffffff;
 }
 
 .filter-btn:hover,
