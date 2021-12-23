@@ -8,6 +8,8 @@
   --color4: #eeeeee;
   --color5: #2f303a;
   --color6: rgba(255, 255, 255, 0.6);
+  --color7: #757575;
+  --color8: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -17,8 +19,7 @@ body {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  cursor: pointer;
-  color: #757575;
+  color: var(--color7);
 }
 
 .list {
@@ -27,7 +28,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: #757575;
+  color: inherit;
 }
 
 /*---------header---------*/
@@ -79,19 +80,18 @@ body {
 
 /*---------hero---------*/
 
- .visually-hidden-title{
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+.visually-hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
-
 
 .filter-btn {
   cursor: pointer;
@@ -108,30 +108,26 @@ body {
 .filter-btn:focus,
 .present-btn {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--color1);
 }
 
-
 .hero-title {
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
 
   color: var(--color2);
 }
 
 .hero-after-title {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 
 .portfolio-item {
   background: var(--color1);
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--color4);
   box-sizing: border-box;
 }
 
@@ -142,7 +138,7 @@ body {
 }
 
 .footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color6);
 }
 
 .footer-adress {
@@ -150,7 +146,6 @@ body {
 }
 
 .footer-link {
-  
   color: var(--color1);
 }
 
