@@ -8,6 +8,8 @@
   --color4: #eeeeee;
   --color5: #2f303a;
   --color6: rgba(255, 255, 255, 0.6);
+  --color7: #757575;
+  --color8: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -17,8 +19,7 @@ body {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  cursor: pointer;
-  color: #757575;
+  color: var(--color7);
 }
 
 .list {
@@ -27,7 +28,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: #757575;
+  color: var(--color7);
 }
 
 /*---------header---------*/
@@ -38,15 +39,15 @@ body {
   font-size: 26px;
   line-height: 1.19;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .studio-white {
-  color: #ffffff;
+  color: var(--color1);
 }
 
 .studio-black {
-  color: #212121;
+  color: var(--color2);
 }
 
 .header-link {
@@ -55,11 +56,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--color2);
 }
 
 .present {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link:hover,
@@ -81,7 +82,7 @@ body {
 
 /*---------main---------*/
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--color5);
 }
 
 .hero-title {
@@ -92,7 +93,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--color1);
 }
 
 .hero-btn {
@@ -100,20 +101,22 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--color1);
 
   background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--color8);
   border-radius: 4px;
 }
 
 .specials-title {
+  font-size: 14px;
   text-transform: uppercase;
 
   color: var(--color2);
@@ -128,7 +131,7 @@ body {
 }
 
 .team-section {
-  background: #f5f4fa;
+  background: var(--color3);
 }
 
 .team-namez,
@@ -145,7 +148,7 @@ body {
 /*---------footer---------*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--color5);
 }
 
 .main-footer-link {
@@ -154,12 +157,12 @@ body {
   font-size: 26px;
   line-height: 31px;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-mail,
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color6);
 }
 
 .footer-adress {
@@ -167,13 +170,11 @@ body {
 }
 
 .footer-link {
-  
-
   color: var(--color1);
 }
 
 .footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color6);
 }
 
 .footer-contacts:hover,
