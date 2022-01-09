@@ -31,7 +31,7 @@ body {
   color: var(--color7);
 }
 img {
-display: block;
+  display: block;
 }
 .container {
   width: 1200px;
@@ -43,9 +43,7 @@ display: block;
 
 /*---------header---------*/
 
-
-
-.header-list { 
+.header-list {
   display: flex;
 }
 
@@ -59,9 +57,9 @@ display: block;
   align-items: center;
 }
 
- .connect .item + .item {
-margin-left: 50px;
- }
+.connect .item + .item {
+  margin-left: 50px;
+}
 .connect {
   display: flex;
   margin-left: auto;
@@ -71,13 +69,11 @@ margin-left: 50px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-} 
+}
 
-
- .header-list :not(:last-child) {
+.header-list :not(:last-child) {
   margin-right: 50px;
 }
- 
 
 .main-logo {
   margin-right: 93px;
@@ -126,9 +122,6 @@ margin-left: 50px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
- 
-
 
 /*---------portfolio---------*/
 
@@ -183,14 +176,12 @@ margin-left: 50px;
   box-sizing: border-box;
 }
 
-
 /*---------mainpage---------*/
 .hero-section {
   background-color: var(--color5);
   padding-top: 200px;
   padding-bottom: 280px;
   text-align: center;
-
 }
 
 .hero-title {
@@ -222,9 +213,7 @@ margin-left: 50px;
 
   margin-top: 30px;
 }
-n
-
-.specials-section {
+n .specials-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -234,7 +223,6 @@ n
   text-transform: uppercase;
 
   color: var(--color2);
-
 }
 .text-specials {
   margin-top: 10px;
@@ -252,8 +240,6 @@ n
 .what-we-are-doing {
   padding-bottom: 94px;
 }
-
-
 
 .team-section {
   background: var(--color3);
