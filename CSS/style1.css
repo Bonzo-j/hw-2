@@ -181,11 +181,11 @@ img {
 
 /*---------portfolio---------*/
 
-.main {
+ .main {
   
 border-top: 1px solid #ECECEC
 
-}
+} 
 
 .filter-list {
   display: flex;
