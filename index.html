@@ -22,41 +22,35 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <div class="header-div">
-          <nav class="header-nav">
-            <a class="main-logo link" href="" lang="en">
-              Web<span class="studio-black">Studio</span>
-            </a>
-            <ul class="list header-list">
-              <li class="header-item">
-                <a class="link present header-link" href="./index.html"
-                  >Студия</a
-                >
-              </li>
-              <li class="header-item">
-                <a class="link header-link" href="./portfolio.html"
-                  >Портфолио</a
-                >
-              </li>
-              <li class="header-item">
-                <a class="link header-link" href="">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-
-          <ul class="list connect">
-            <li class="item">
-              <a class="link header-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+        <nav class="header-nav">
+          <a class="main-logo link" href="" lang="en">
+            Web<span class="studio-black">Studio</span>
+          </a>
+          <ul class="list header-list">
+            <li class="header-item">
+              <a class="link present header-link" href="./index.html">Студия</a>
             </li>
-            <li class="item">
-              <a class="link header-contacts" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="header-item">
+              <a class="link header-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">Контакты</a>
             </li>
           </ul>
-        </div>
+        </nav>
+
+        <ul class="list connect-list">
+          <li class="header-item">
+            <a class="link header-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-item">
+            <a class="link header-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -66,31 +60,31 @@
           <button type="button" class="hero-btn">Заказать услугу</button>
         </div>
       </section>
-      <section class="specials-section">
+      <section class="section specials-section">
         <div class="container">
-          <ul class="list">
-            <li>
+          <ul class="list card-set">
+            <li class="specials-item item">
               <h3 class="specials-title">Внимание к деталям</h3>
               <p class="text-specials">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="specials-item item">
               <h3 class="specials-title">Пунктуальность</h3>
               <p class="text-specials">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="specials-item item">
               <h3 class="specials-title">Планирование</h3>
               <p class="text-specials">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="specials-item item">
               <h3 class="specials-title">Современные технологии</h3>
               <p class="text-specials">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -100,11 +94,11 @@
           </ul>
         </div>
       </section>
-      <section class="what-we-are-doing">
+      <section class="section what-we-are-doing">
         <div class="container">
-          <h2 class="title">Чем мы занимаемся</h2>
-          <ul class="list about-imgs">
-            <li>
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list card-set">
+            <li class="what-item item">
               <img
                 src="./imgs/cp3_3.jpg"
                 width="370"
@@ -112,7 +106,7 @@
                 alt="Написание кода"
               />
             </li>
-            <li>
+            <li class="what-item item">
               <img
                 src="./imgs/cp1_3.jpg"
                 width="370"
@@ -120,7 +114,7 @@
                 alt="Мобильные приложения"
               />
             </li>
-            <li>
+            <li class="what-item item">
               <img
                 src="./imgs/cp2_3.jpg"
                 width="370"
@@ -131,57 +125,66 @@
           </ul>
         </div>
       </section>
-      <section class="team-section">
+      <section class="section team-section">
         <div class="container">
-          <h2 class="title">Наша команда</h2>
-          <ul class="list team-imgs">
-            <li>
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list card-set">
+            <li class="team-item item">
               <img
                 src="./imgs/img14.jpg"
                 width="270"
                 height="260"
                 alt="портрет Игорь Демьяненко"
               />
-              <h3 class="team-namez">Игорь Демьяненко</h3>
-              <p class="team-after-namez" lang="en">Product Designer</p>
+              <div class="team-wrapper">
+                <h3 class="team-namez">Игорь Демьяненко</h3>
+                <p class="team-after-namez" lang="en">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item item">
               <img
                 src="./imgs/img-24.jpg"
                 width="270"
                 height="260"
                 alt="портрет Ольга Репина"
               />
-              <h3 class="team-namez">Ольга Репина</h3>
-              <p class="team-after-namez" lang="en">Frontend Developer</p>
+              <div class="team-wrapper">
+                <h3 class="team-namez">Ольга Репина</h3>
+                <p class="team-after-namez" lang="en">Frontend Developer</p>
+              </div>
             </li>
 
-            <li>
+            <li class="team-item item">
               <img
                 src="./imgs/img-34.jpg"
                 width="270"
                 height="260"
                 alt="портрет Николай Тарасов"
               />
-              <h3 class="team-namez">Николай Тарасов</h3>
-              <p class="team-after-namez" lang="en">Marketing</p>
+              <div class="team-wrapper">
+                <h3 class="team-namez">Николай Тарасов</h3>
+                <p class="team-after-namez" lang="en">Marketing</p>
+              </div>
             </li>
 
-            <li>
+            <li class="team-item item">
               <img
                 src="./imgs/img-44.jpg"
                 width="270"
                 height="260"
                 alt="портрет Михаил Ермаков"
               />
-              <h3 class="team-namez">Михаил Ермаков</h3>
-              <p class="team-after-namez" lang="en">UI Designer</p>
+              <div class="team-wrapper">
+                <h3 class="team-namez">Михаил Ермаков</h3>
+                <p class="team-after-namez" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
+      <!-- <div class="container footer-container"> -->
       <a class="main-logo link" href=""
         >Web<span class="studio-white">Studio</span></a
       >
@@ -208,6 +211,7 @@
           </li>
         </ul>
       </address>
+      <!-- </div> -->
     </footer>
     <link rel="stylesheet" href="./CSS/style1.css" />
   </body>
