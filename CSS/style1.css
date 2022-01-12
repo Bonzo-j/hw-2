@@ -294,7 +294,7 @@ img {
 .specials-title {
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 1.18px;
+  line-height: 16px;
   text-transform: uppercase;
 
   color: var(--color2);
