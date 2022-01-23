@@ -130,6 +130,11 @@ img {
   align-items: center;
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: var(--color7);
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -144,17 +149,14 @@ img {
   margin-right: 50px;
 }
 
-/* .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-} */
-
 .connect-list {
   display: flex;
   margin-left: auto;
 }
 
 .header-link {
+  align-items: center;
+
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
@@ -171,11 +173,15 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+  /* fill: var(--accent-color); */
+}
+
+.header-icon:hover,
+.header-icon:focus {
+  fill: var(--accent-color);
 }
 
 /*---------portfolio---------*/
-
-
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -218,12 +224,18 @@ img {
   border-top: none;
   box-sizing: border-box;
 }
-   
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .filter-btn:hover,
 .filter-btn:focus,
 .present-btn {
   background-color: var(--accent-color);
   color: var(--color1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .the-hero-title {
@@ -243,7 +255,13 @@ img {
 
 /*---------mainpage---------*/
 .hero-section {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/imgs/backimg.jpg);
   background-color: var(--color5);
+  background-size: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -291,6 +309,17 @@ img {
   flex-basis: calc(100% / 4 - 30px);
 }
 
+.specials-list {
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+}
+
 .specials-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -321,6 +350,70 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-item + .team-social-item {
+  margin-left: 10px;
+}
+
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--color1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.team-social-icon {
+  fill: currentColor;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid;
+  border-color: #afb1b8;
+  background-color: var(--color1);
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  cursor: pointer;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  background-color: var(--color1);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
 .team-wrapper {
   padding: 30px;
 }
@@ -330,6 +423,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .team-namez {
@@ -344,7 +438,7 @@ img {
   background-color: var(--color5);
   padding-top: 60px;
   padding-bottom: 60px;
-  
+  display: flex;
 }
 
 .main-footer-link {
@@ -359,6 +453,20 @@ img {
 .footer .main-logo {
   margin-bottom: 20px;
   display: block;
+}
+
+.joinus {
+  padding-top: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  /* justify-content: center;
+align-items: center;  */
+
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: var(--color1);
 }
 
 .footer-item:not(:last-child) {
@@ -392,4 +500,34 @@ img {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.footer-social-list {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.footer-social-icon {
+  fill: currentColor;
 }
