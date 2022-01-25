@@ -132,7 +132,7 @@ img {
 
 .header-icon {
   margin-right: 10px;
-  fill: var(--color7);
+  fill: currentColor;
 }
 
 .header-nav {
@@ -173,7 +173,6 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
-  /* fill: var(--accent-color); */
 }
 
 .header-icon:hover,
@@ -263,7 +262,7 @@ img {
     ),
     url(../imgs/backgroundimage.jpg);
   background-color: var(--color5);
-  background-size: 1600px;
+  background-position:center;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
