@@ -275,6 +275,7 @@ img {
     url(../imgs/backgroundimage.jpg);
   background-color: var(--color5);
   background-position: center;
+  background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -414,6 +415,7 @@ li.clients-item {
   border: 1px solid;
   display: flex;
   border-radius: 4px;
+  border-color: currentColor;
   justify-content: center;
   align-items: center;
   color: var(--color9);
@@ -421,9 +423,9 @@ li.clients-item {
 
 .clients-link:hover,
 .clients-link:focus {
-  background-color: var(--color1);
+
   color: var(--accent-color);
-  border-color: var(--accent-color);
+ 
 }
 
 .clients-icon {
