@@ -626,6 +626,7 @@ align-items: center;  */
   align-items: center;
   justify-self: center;
   position: absolute;
+  padding-left: 9px;
   top: 8px;
   right: 8px;
 }
