@@ -176,7 +176,7 @@ img {
 
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--transition);
 }
 
 .present {
@@ -257,7 +257,7 @@ img {
   border-radius: 4px;
   color: var(--color2);
   background-color: var(--color3);
-  transition: color var(--transition), background-color var(--transition), box-shadow var(--transition1);
+  transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
   
 }
 
@@ -283,6 +283,7 @@ img {
 .portfolio-link {
   display: flex;
   flex-direction: column;
+  transition: box-shadow var(--transition);
 }
 
 .portfolio-link:hover,
@@ -383,6 +384,7 @@ img {
   text-transform: uppercase;
   width: 100%;
   padding: 27px;
+  font-weight: 700;
 }
 
 .specials-list {
@@ -482,6 +484,7 @@ li.clients-item {
   justify-content: center;
   align-items: center;
   color: var(--color9);
+  transition: color var(--transition);
 }
 
 .clients-link:hover,
@@ -491,7 +494,6 @@ li.clients-item {
 
 .clients-icon {
   fill: currentColor;
-  transition: color var(--transition);
 }
 
 .team-wrapper {
