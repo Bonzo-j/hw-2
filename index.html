@@ -63,7 +63,7 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-btn" data-modal-open>
+          <button type="button" class="main-btn" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -577,29 +577,28 @@
             </li>
           </ul>
         </div>
-        <div class="joinus-wr">
+        <div class="footer-form">
           <h3 class="joinus">Подпишитесь на рассылку</h3>
-          <div class="email-sub-container">
-            <form action="#" class="online-form">
-              <input
-                type="text"
-                placeholder="E-mail"
-                name="online-mail"
-                class="online-input"
-              />
-            </form>
-            <button type="button" class="sub-button">
+
+          <form action="#" class="online-form">
+            <input
+              type="text"
+              placeholder="E-mail"
+              name="online-mail"
+              class="online-input"
+            />
+            <button type="submit" class="main-btn sub-button">
               Подписаться<svg class="sub-icon" width="32" height="32">
                 <use href="imgs/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="submit" class="modale-close" data-modal-close>
+        <button type="button" class="modale-close" data-modal-close>
           <svg class="modal-close" width="11" height="11">
             <use href="imgs/icons.svg#icon-Vector-2-1"></use>
           </svg>
@@ -656,7 +655,7 @@
               </svg>
             </div>
           </div>
-          <div class="form-field">
+          <div class="form-fieldcom">
             <label class="input-text" for="users-text">Комментарий</label>
             <textarea
               name="users-text"
@@ -672,14 +671,17 @@
               id="policy"
               class="policy-check visually-hidden-title"
             />
-            <label for="policy" class="check-text"
+            <label for="policy" class="check-text">
+              <span
+                ><svg class="policy-icon" height="16" width="15">
+                  <use href="./imgs/icons.svg#icon-check-th"></use></svg></span
               >Соглашаюсь с рассылкой и принимаю<a href="" class="terms-use"
                 >Условия договора</a
               ></label
             >
           </div>
           <div class="sb-btn">
-            <button type="submit" class="submit-btn">Отправить</button>
+            <button type="submit" class="main-btn submit-btn">Отправить</button>
           </div>
         </form>
       </div>
