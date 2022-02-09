@@ -2,6 +2,8 @@
 
 :root {
   --accent-color: #2196f3;
+  --btn-color: #188CE8;
+  --proz-blue: rgba(33, 150, 243, 0.9);
   --color1: #ffffff;
   --color2: #212121;
   --color3: #f5f4fa;
@@ -220,7 +222,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--accent-color);
+  background-color: var(--proz-blue);
   color: var(--color1);
   font-size: 18px;
   line-height: 28px;
@@ -355,6 +357,12 @@ img {
   box-shadow: var(--color8);
   border-radius: 4px;
   border: none;
+  transition: background-color var(--transition);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--btn-color);
 }
 
 .specials-item {
@@ -613,7 +621,7 @@ li.clients-item {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-
+  color: var(--color1);
   font-size: 16px;
   line-height: 20px;
   margin-right: 10px;
@@ -703,7 +711,7 @@ li.clients-item {
 }
 
 .modal-title {
-  font-family: Roboto;
+  
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -714,6 +722,7 @@ li.clients-item {
 .form-field {
   margin-bottom: 10px;
 }
+
 
 .form-fieldcom {
   margin-bottom: 20px;
@@ -727,7 +736,7 @@ li.clients-item {
   border-radius: 4px;
 
   padding-left: 42px;
-  transition: var(--transition);
+  transition: border-color var(--transition);
   /* outline: none; */
 }
 
@@ -735,7 +744,7 @@ li.clients-item {
   display: block;
   margin-bottom: 4px;
 
-  font-family: Roboto;
+  
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -752,6 +761,14 @@ li.clients-item {
   resize: none;
   padding-left: 16px;
   padding-top: 12px;
+}
+
+.form-text::placeholder {
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
 }
 
 .input-wrap {
@@ -794,9 +811,12 @@ li.clients-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
 
   color: var(--color7);
+}
+
+.checkbox-wrap {
+  margin-bottom: 20px;
 }
 
 .terms-use {
@@ -804,7 +824,7 @@ li.clients-item {
   color: var(--accent-color);
 }
 
-.check-text span {
+.check-text .custom-check {
   width: 16px;
   height: 15px;
   border: 1px solid var(--color2);
@@ -819,8 +839,8 @@ li.clients-item {
   fill: transparent;
 }
 
-.policy-check:checked + .check-text span {
-  border: none;
+.policy-check:checked + .check-text .custom-check {
+  border: 1px solid var(--accent-color);
   background-color: var(--accent-color);
 }
 
@@ -828,7 +848,7 @@ li.clients-item {
   fill: var(--color1);
 }
 
-.check-text span:hover,
-.check-text span:focus {
-  border-color: var(--accent-color);
+.policy-check:hover + .check-text .custom-check, 
+.policy-check:focus + .check-text .custom-check {
+  border: 1px solid var(--accent-color);
 }
