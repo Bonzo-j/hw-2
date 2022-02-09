@@ -763,7 +763,7 @@ li.clients-item {
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
-  transition: fill 500ms;
+  transition: fill var(--transition);
 }
 
 .form-input:focus,
